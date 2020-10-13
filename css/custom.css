@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+.homepagepic{
+	
+	background-image:url("../images/homepage.jpg");
+	height:710px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.homepagetext{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color:#2B3768;
+	
+
+} 
+
+.navstyle{
+	background-color: #169CB1;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color:#FFFFFF;
+	margin:0;
+
+}
+
+footer{
+	color:#FFFFFF;
+	
+	width: 100%;
+	background-color: #169CB1;
+	text-align: right;
+	padding-right:80px;
+	padding-top:10px;
+	padding-bottom:5px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+
+}
+
+
+.titleposition{
+	display:flex;
+	align-items: center;
+	
+	
+	
+}
+
+
+.uoft{
+	width:550px;
+	height:260px;
+}
+
+
+.center{
+	text-align: center;
+}
+
+.lilyfont{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+
+}
+
+.fixaboutfooter{
+	
+	max-width: 100%;
+	
+}
+
+.photobackgroundstyle{
+	background-image: url("../images/photobackground.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+	
+}
+
+.titlecolor{
+	
+	color:#474747
+}
+
+
+.phototext{
+
+	line-height: 1.8;
+}
+
+
+.submitbuttom{
+	
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+#video-placeholder {
+
+	position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+#video-placeholder video {
+	margin:0;
+	height: 100%;
+	vertical-align: middle;
+	width: 100%;
+
+}
+
+#video-placeholder .video-caption {
+    position: absolute;
+    bottom: 6em;
+    left: 0;
+    z-index: 1;
+    color: #474747;
+    width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+	
+	
+	
+	
+	
+}
+#video-placeholder .video-caption h2 {
+	color: #474747;
+	font-size: 8em;
+	text-align: center;
+}
+
+
+mark{
+	 opacity: 70%;
+	background-color: hsla(188,78%,39%,1.00);
+	color:#FFFFFF;
+}
+
+
+.video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 790px;
+  height: 510px;
+  border-color: transparent;
+  padding: 20px;
+}
+
+
+.videostyle{
+	padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
